@@ -43,69 +43,7 @@ body {
     color: gold;
   }
 
-  /* Center menu-steps class and change font styles */
-.menu-steps {
-    margin: auto;
-    max-width: 800px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    list-style-type: none;
-    margin-bottom: 200px;
-    margin-top: 150px;
-  }
-  
-  .menu-steps h1 {
-    font-size: 32px;
-    font-weight: bold;
-  }
-  
-  .menu-steps p {
-    font-style: italic;
-  }
-
-  
-  /* Style for café section */
-  #cafe {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 20px;
-
-  }
-  h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
-
-  /* Style for menu-grid */
-  .menu-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    margin: auto;
-    max-width: 800px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    margin-bottom: 40px;
-  }
-  
-  .menu-item {
-    background-color: transparent;
-    padding: 20px;
-    border: 1px solid transparent;
-  }
-  
-  .menu-price {
-    background-color: transparent;
-    padding: 20px;
-    border: 1px solid transparent;
-  }
-  
+ 
 
 
 
