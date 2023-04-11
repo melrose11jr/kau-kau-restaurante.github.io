@@ -1,48 +1,63 @@
-/* Set page background color */
 body {
-    background-color: beige;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Style for header */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 20px 0;
-  }
-  
-  /* Style for logo image */
-  header img {
-    width: 200px;
-    height: 200px;
-  }
-  
-  /* Style for navigation bar */
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 0;
+}
+
+/* Style for logo image */
+header img {
+  width: 250px;
+  height: 250px;
+}
+
+/* Style for navigation bar */
+nav {
     text-decoration: none;
-    color: black;
+    color: #333;
     font-weight: bold;
-    font-size: 20px;
-  }
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 50px;
+    background-color: beige;
+    transition: background-color 0.3s ease-in-out;
   
-  nav a:hover {
-    color: gold;
-  }
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 15px 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #ff9800;
+  color: #fff;
+}
   .first-div h2,
   .second-div h2,
   .first-div p,
@@ -50,6 +65,7 @@ body {
     display: flex;
     margin-left: 20px;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
   }
   .first-div, .second-div {
     margin-top: 85px;
@@ -77,5 +93,6 @@ body {
         margin-bottom: 0px;
         font-size: 14px;
         color: black;
+        font-family: 'Roboto', sans-serif;
       }
       
