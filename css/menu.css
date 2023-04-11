@@ -43,7 +43,24 @@ body {
     color: gold;
   }
 
- 
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 55px;
+  }
+  
+  .menu1, .drinks, .cafe {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .menu1 img, .drinks img, .cafe img {
+    max-width: 1080px;
+    max-height: 732px;
+  }
 
 
 
