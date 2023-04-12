@@ -2,6 +2,7 @@ body {
   background-color: beige;
   margin: 0;
   padding: 0;
+
 }
 
 /* Style for header */
@@ -64,12 +65,13 @@ nav a:hover {
     display: flex;
     position: relative;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items: center;
-    height: 500px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: auto;
   }
   
   /* Style for button */
@@ -83,8 +85,10 @@ nav a:hover {
     font-size: 16px !important;
     font-weight: bold !important;
     cursor: pointer !important;
-    margin-left: 50px !important;
+    margin-left: 70px !important;
     font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    margin-right: 70px;
   }
   
   .button:hover {
